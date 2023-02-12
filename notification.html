@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notification</title>
+	<link rel="stylesheet" href="./notification.css"/>
+</head>
+<body>
+	<div id="container">
+		<div id="notify">
+			<div id="content"><p>Notification</p></div>
+			<div id="loader"></div>
+		</div>
+	</div>
+	<script>
+	function clear(){
+		window.setTimeout(()=>{
+			document.getElementById('notify').style="display:none";
+		},2000);
+	}
+	clear();
+	</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+	background-color:  #CBD2DA;
+	width: 100%;height: 100%;
+	overflow: hidden;
+}
+#container{
+	position: absolute;
+	display: flex;justify-content:right;
+	width: 100%;
+	height: 100%;
+}
+#notify{
+	background-color: white;
+	width:27%;
+	height: 12%;
+	display: grid;
+	grid-template-rows:95% 5%;
+}
+#content{
+	background-color: transparent;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	font-size: 25px;
+}
+
+#loader{
+	background-color: #228c22;
+	width: 100%;
+	animation-name:loader;
+	animation-duration:2s;
+	animation-iteration-count:1;
+}
+@keyframes loader{
+	0%{
+		width:100%;
+	}
+	5%{
+		width: 95%;
+	}
+	10%{
+		width: 90%;
+	}
+	15%{
+		width: 85%;
+	}
+	20%{
+		width: 80%;
+	}
+	25%{
+		width: 75%;
+	}
+	30%{
+		width: 70%;
+	}
+	35%{
+		width: 65%;
+	}
+	40%{
+		width: 60%;
+	}
+	45%{
+		width: 55%;
+	}
+	50%{
+		width: 50%;
+	}
+	55%{
+		width: 45%;
+	}
+	60%{
+		width: 40%;
+	}
+	65%{
+		width: 35%;
+	}
+	70%{
+		width: 30%;
+	}
+	75%{
+		width: 25%;
+	}
+	80%{
+		width: 20%;
+	}
+	85%{
+		width: 15%;
+	}
+	90%{
+		width: 10%;
+	}
+	95%{
+		width:5%;
+	}
+	100%{
+		width: 0%;
+	}
+}
